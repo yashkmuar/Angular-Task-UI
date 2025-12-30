@@ -10,4 +10,6 @@ import { DUMMY_USERS }  from './dummy-users';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {}
+export class AppComponent {
+  public users = DUMMY_USERS;
+}

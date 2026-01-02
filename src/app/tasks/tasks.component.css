@@ -5,3 +5,18 @@
     overflow: auto;
     background-color: #3a2c54;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 0.9rem;
+  width: 60%;
+  text-wrap: balance;
+}

@@ -17,8 +17,6 @@ export class TasksComponent {
   isAddingTask = false;
 
   constructor(private tasksService: TasksService){
-    this.tasksService = tasksService;
-
   }
 
   get selectedUserTasks() {

@@ -50,7 +50,7 @@ export class TasksService {
             summary: taskData.summary,
             dueDate: taskData.dueDate,
         });
-        this.saveTasks();
+        this.saveTasks(); //just implementing git config email command so that my commits are registered in github
     }
 
     removeTask(id: string) {
